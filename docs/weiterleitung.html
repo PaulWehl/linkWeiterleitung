@@ -1,1 +1,20 @@
-
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Zufällige Weiterleitung</title>
+    <script>
+      function redirectToRandomForm() {
+        var forms = [
+          "https://forms.gle/kJNUreBSnYAEotdc7",
+          "https://forms.gle/HMi959eqQnEFS2rVA"
+        ];
+        var randomIndex = Math.floor(Math.random() * forms.length);
+        window.location.href = forms[randomIndex];
+      }
+      redirectToRandomForm();
+    </script>
+  </head>
+  <body>
+    <p>Bitte warten Sie einen Moment, während wir Sie auf eine der beiden Umfragen weiterleiten...</p>
+  </body>
+</html>
